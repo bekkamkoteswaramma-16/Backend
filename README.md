@@ -1,0 +1,13 @@
+src/
+  pages/
+    Home.jsx
+    Details.jsx
+    Login.jsx
+    Register.jsx
+    Dashboard.jsx
+    MyBookings.jsx
+    NotFound.jsx
+  components/
+    Loading.jsx
+  App.jsx
+  main.jsx
