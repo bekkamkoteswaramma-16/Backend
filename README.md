@@ -10,4 +10,4 @@ src/
   components/
     Loading.jsx
   App.jsx
-  main.jsx
+  main.jsx 
