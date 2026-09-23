@@ -4,7 +4,7 @@ src/
     Details.jsx
     Login.jsx 
     Register.jsx 
-    Dashboard.jsx
+    Dashboard.jsx 
     MyBookings.jsx
     NotFound.jsx
   components/
