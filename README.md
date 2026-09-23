@@ -1,5 +1,5 @@
 src/ 
-  pages/
+  pages/ 
     Home.jsx
     Details.jsx
     Login.jsx
