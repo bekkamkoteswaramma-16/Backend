@@ -1,4 +1,4 @@
-src/
+src/ 
   pages/
     Home.jsx
     Details.jsx
@@ -8,6 +8,6 @@ src/
     MyBookings.jsx
     NotFound.jsx
   components/
-    Loading.jsx
+    Loading.jsx 
   App.jsx
   main.jsx 
