@@ -3,7 +3,7 @@ src/
     Home.jsx 
     Details.jsx
     Login.jsx 
-    Register.jsx
+    Register.jsx 
     Dashboard.jsx
     MyBookings.jsx
     NotFound.jsx
