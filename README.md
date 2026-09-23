@@ -7,7 +7,7 @@ src/
     Dashboard.jsx 
     MyBookings.jsx
     NotFound.jsx
-  components/
+  components/ 
     Loading.jsx 
   App.jsx
   main.jsx 
