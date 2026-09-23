@@ -2,7 +2,7 @@ src/
   pages/ 
     Home.jsx 
     Details.jsx
-    Login.jsx
+    Login.jsx 
     Register.jsx
     Dashboard.jsx
     MyBookings.jsx
