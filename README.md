@@ -1,6 +1,6 @@
 src/ 
   pages/ 
-    Home.jsx
+    Home.jsx 
     Details.jsx
     Login.jsx
     Register.jsx
