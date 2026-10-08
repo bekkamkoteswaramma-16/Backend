@@ -16,7 +16,7 @@ export const getHouseById = (req, res) => {
   res.status(200).json({ success: true, data: house });
 };
 
-export const createHouse = (req, res) => {
+export const createHouse = (req, res) => { 
   const { title, price, location } = req.body;
   // Bonus 1: Validation
   if(!title || !price || !location) {
