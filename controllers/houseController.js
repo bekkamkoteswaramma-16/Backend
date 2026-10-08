@@ -5,7 +5,7 @@ export const getAllHouses = (req, res) => {
   
   // Bonus 2: Search & Filter
   if(req.query.location) {
-    result = result.filter(h => h.location.toLowerCase().includes(req.query.location.toLowerCase()));
+    result = result.filter(h =>  h.location.toLowerCase().includes(req.query.location.toLowerCase()));
   }
   res.status(200).json({ success: true, data: result });
 };
