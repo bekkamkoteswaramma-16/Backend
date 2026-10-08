@@ -13,7 +13,7 @@ export const getAllHouses = (req, res) => {
 export const getHouseById = (req, res) => {
   const house = houses.find(h => h.id ===  parseInt(req.params.id));
   if(!house) return res.status(404).json({ success: false, message: "House not found" });
-  res.status(200).json({ success: true, data: house });
+  res.status(200).json({ success: true, data: house }); 
 };
 
 export const createHouse = (req, res) => { 
