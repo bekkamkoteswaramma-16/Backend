@@ -13,7 +13,7 @@ const registerUser = async (req, res) => {
   }
   const user = await User.create({ name, email, password, role });
   if(user) {
-    res.status(201).json({
+    res.status(201).json({ 
       _id: user._id, name: user.name, email: user.email, role: user.role,
       token: generateToken(user._id),
     });
