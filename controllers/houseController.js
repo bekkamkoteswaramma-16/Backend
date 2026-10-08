@@ -18,7 +18,7 @@ export const getHouseById = (req, res) => {
 
 export const createHouse = (req, res) => { 
   const { title, price, location } = req.body; 
-  // Bonus 1: Validation
+  // Bonus 1: Validation 
   if(!title || !price || !location) {
     return res.status(400).json({ success: false, message: "Please provide title, price, location" });
   }
